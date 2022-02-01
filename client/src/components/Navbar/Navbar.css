@@ -1,0 +1,36 @@
+
+.navbar-main-div{
+  background-color: #181818;
+  height: 80px;
+  width:100vw;
+  position: fixed;
+  z-index: 1;
+  opacity: .9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+.navbar-main-div a:hover{
+border-bottom: 4px solid purple;
+}
+
+
+.nav-ul {
+list-style: none;
+margin:0;
+padding: 0;
+}
+
+.nav-li {
+display: inline-flex;
+margin: 20px;
+
+}
+.nav-link{
+  color: antiquewhite;
+  text-decoration: none;
+}

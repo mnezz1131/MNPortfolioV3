@@ -1,0 +1,30 @@
+.about-main-div{
+    background-color: black;
+padding-bottom: 5%;
+
+}
+.about-container{
+  display: flex;
+  justify-content: center;
+  /* width: 90%; */
+
+}
+.about-text{
+  width:50%;
+ margin-right:50px;
+}
+.about-h2{
+font-size: 4vw;
+}
+.about-me-p{
+  color:seashell; 
+  font-size: 20px;
+
+
+}
+.about-pic{
+  width:25vw;
+
+  border-radius:10%;
+}
+
