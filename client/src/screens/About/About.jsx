@@ -2,8 +2,10 @@ import React from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import "./About.css";
 
+
 const About = () => {
   return (
+ 
     <div className="about-main-div" id="about">
       <PageHeader title={"About Me"} />
 
@@ -24,7 +26,8 @@ const About = () => {
           <img className="about-pic" src="./images/me.jpeg" alt="ME!"></img>
         </div>
       </div>
-    </div>
+      </div>
+   
   );
 };
 

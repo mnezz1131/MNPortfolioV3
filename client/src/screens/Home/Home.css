@@ -1,36 +1,47 @@
 .home-main-div{
-  /* background-image: url(../../images/austin.jpeg) */
+
   background: rgb(39,144,195);
-  background: linear-gradient(49deg, rgba(39,144,195,1) 7%, rgba(151,41,223,0.9514180672268907) 67%);
+  background: linear-gradient(49deg, rgba(39,144,195,1) 7%, rgba(151,41,223,0.9514180672268907) 67%); 
   display:flex;
+
   padding-top: 80px;
-  height:630px;
+  height:calc(100vh - 140px);
+ 
   position:relative;
 }
-
-
-.home-main-div
-.home-container
-h1
-{
+.home-background{
+ width:100vw;
+}
+.home-container h1{
   margin: 0;
 }
-.home-name{
-  font-family: 'Cinzel Decorative', cursive;
-font-size: 72px;
-
-}
-
 .home-welcome{
   font-size: 42px;
   position: absolute;
-  left:30%;
+  left:2.0%;
+  top:8%;
+  text-shadow:
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
+.home-name{
+font-family: 'Cinzel Decorative', cursive;
+font-size: 8.0vw;
+font-weight: 700;
+color: lavender;
+text-shadow: -1px 2px 0 #500, 1px 1px 0 #600, -1px -2px 0 #400,-1px -1px 0 #100;
+position: absolute;
+left: 25%;
+top:27%;
+}
+
 .home-img1{
-  width: 250px;
-  height:250px;
+  width: 18vw;
+  height:12vw;
   position:absolute;
   right:2%;
-  bottom: 5%;
+  bottom: 3%;
 }
 
