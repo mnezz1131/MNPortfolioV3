@@ -1,10 +1,10 @@
 import React from "react";
-import PageHeader from "../../components/Navbar/PageHeader/PageHeader";
+import PageHeader from "../../components/PageHeader/PageHeader";
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-main-div">
+    <div className="about-main-div" id="about">
       <PageHeader title={"About Me"} />
 
       <div className="about-container">

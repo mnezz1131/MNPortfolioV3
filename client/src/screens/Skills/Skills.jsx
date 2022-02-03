@@ -1,10 +1,10 @@
 import React from "react";
 import "./Skills.css"
-import PageHeader from "../../components/Navbar/PageHeader/PageHeader.jsx";
+import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 
 const Skills = () => {
   return (
-    <div className = "skills-main-div">
+    <div className = "skills-main-div" id="skills">
       <PageHeader title={"Skills"} />
       <div className="skills-p">
         <p>
