@@ -1,0 +1,54 @@
+.download-div{
+  margin-top:15px;
+  margin-bottom:35px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download_resume a{
+  margin-left: 25px;
+}
+:root {
+  --mainColor: #232225;
+}
+.download_link{
+  font-size: 4.0vw;
+  font-family: 'Oxygen', sans-serif;
+ border-style: double;
+ border-radius: 5px;
+ padding: 0 8px 0 8px;
+ background-color: green;
+ 
+
+  background:
+  linear-gradient(
+    to bottom,
+    var(--mainColor) 0%,
+    var(--mainColor) 100%
+  );
+background-position: 0 100%;
+background-repeat: repeat-x;
+background-size: 4px 4px;
+color: rgb(248, 245, 245);
+text-decoration: none;
+transition: background-size .2s;
+}
+
+a:hover {
+background-size: 4px 70px;
+color: goldenrod;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.download_link{
+  font-size: 30px;
+}
+}
+
+
+
+

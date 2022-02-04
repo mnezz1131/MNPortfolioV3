@@ -1,11 +1,76 @@
 .contact-main-div{
-  background-color: black;
-
-
+  background-color: #141313;
+  padding-bottom: 5%;
 }
 
+.contact-main-div hr{
+  width:80vw;
+  box-shadow: 0 0 10px 2px white;
+}
+
+.contact-p{
+  color: seashell;
+  width: 65vw;
+  margin: 0 auto;
+margin-top: 60px;
+margin-bottom:60px;
+font-size:30px;
+text-align:center;
+}
+
+.contact-row{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-contact{
+  color:gainsboro;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+}
+.about-me-contact a{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+  color:goldenrod;
+}
 .contact-icons{
   width:100%;
   display: flex;
   justify-content: center;
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .contact-div{
+      margin-bottom: 80px;
+    }
+    .about-me-contact{
+      font-size: 25px;
+      margin-left: 10px;
+      margin-top: -15px;
+    }
+    .contact-title{
+      font-size: 45px;
+      margin-top: -15px;
+      margin-bottom: -12px;
+    }
+    .contact-p{
+      font-size: 20px;
+      padding: 10px;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .about-me-contact{
+      font-size: 20px;
+     
+    }
 }

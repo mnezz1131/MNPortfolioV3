@@ -1,0 +1,28 @@
+.projectContainer{
+  background-color: red;
+  display:flex;
+  margin-bottom: 5%;
+  align-items: center;
+  padding-left: 2.5%;
+  padding-right:2.5%;
+  height: 320px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px white;
+  z-index: 1;
+  width:70vw;
+margin: 0 auto;
+margin-bottom:35px;
+}
+
+.thumb{
+  margin-right:25px;
+}
+.projectText{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.card-tools p{
+  margin: 10px 0 10px 0;
+}

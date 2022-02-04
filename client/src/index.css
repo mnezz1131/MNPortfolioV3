@@ -13,21 +13,25 @@ html{
 }
 h1{
   font-weight: 800;
-  font-size: 45px;
-  color:seashell
+  font-size: 55px;
+  color:seashell;
+  font-family: 'Oxygen', sans-serif;
 }
 h2{
   font-weight: 700;
   font-size: 23px;
   color:seashell;
+  font-family: 'Oxygen', sans-serif;
 }
 p{
   font-weight: 500;
   font-size: 21px;
+  font-family: 'Oxygen', sans-serif;
 }
 a{
   font-weight: 900;
   font-size: 24px;
+  font-family: 'Oxygen', sans-serif;
 }
 
 code {

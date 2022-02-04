@@ -5,7 +5,7 @@ const PageHeader = (props) => {
   return (
     <div>
       <div className="container">
-        <hr />
+        {/* <hr /> */}
         <h1>{props.title}</h1>
       </div>
     </div>

@@ -1,53 +1,15 @@
 .main-portfolio-div{
   background-color:black;
+padding-bottom:5.5%;
 }
 .portfolio-content{
   
   background: rgb(1,2,3);
-
+padding-bottom: 5%;
 }
 
-.portfolio-text{
-  text-align:center;
-  margin-top: 5px;
-}
-.portfolio-text p{
-  
-  width:70%;
-  margin:0 auto;
-  color: white;
-  
-  margin-bottom:1.5%
 
-}
-.content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- 
-}
-.portfolio-links{
-  width:60%;
 
- 
-}
-.thumb{
-  margin-right:25px;
- 
-}
-.projectContainer{
-  background-color: red;
-  display:flex;
-  margin-bottom: 5%;
-  align-items: center;
-  padding-left: 2.5%;
-  padding-right:2.5%;
-  height: 320px;
-  border-radius: 10px;
-  box-shadow: 0 0 5px 1px white;
-  z-index: 1;
-}
 
-.image-tech{
-width:500px
-}
+
+

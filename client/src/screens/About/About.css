@@ -1,30 +1,36 @@
 .about-main-div{
-    background-color: black;
+background-color: black;
 padding-bottom: 5%;
 
+height: 85vh;
+}
+
+.about-main-div hr {
+  width:80vw;
+  box-shadow: 0 0 1vw .05vw white;
 }
 .about-container{
   display: flex;
   justify-content: center;
-  /* width: 90%; */
-
+  margin-top:35px;
+  padding:2.5%;
 }
+
 .about-text{
   width:50%;
- margin-right:50px;
+  margin-right:50px;
 }
 .about-h2{
-font-size: 4vw;
+  font-size: 3.5vw;
+  margin: 5px 0 25px 0;
 }
-.about-me-p{
+.about-me-p {
   color:seashell; 
-  font-size: 20px;
-
-
+  font-size: calc(10px + .6vw)
 }
 .about-pic{
-  width:25vw;
-
+  width:calc(100px + 20vw);
+  margin-top: 10%;
   border-radius:10%;
 }
 

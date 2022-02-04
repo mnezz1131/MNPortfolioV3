@@ -1,11 +1,22 @@
 .skills-main-div{
   background-color: #141313;
   padding-bottom: 5%;
-
+}
+.skills-main-div hr{
+  width:80vw;
+  box-shadow: 0 0 1vw .06vw white;
 }
 
-.skills-p{
+.skills-text{
   color: seashell;
+  width: 65vw;
+  margin: 0 auto;
+margin-top: 2.5%;
+margin-bottom:2.75%;
+
+}
+.skills-p{
+  font-size: calc(10px + .85vw);
 }
 
 .skills-container ul{
@@ -13,24 +24,25 @@
   list-style-type: none;
   padding: 0px;
   display: flex;
-justify-content: center;
-padding: 20px 0 20px 0;
+  justify-content: center;
+  padding: 20px 0 20px 0;
 }
 .skills-container li{
 margin-right: 18px;
+font-size: 28px;
+
 }
 
 
 .skills-lists{
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: space-evenly; */
   background-color: black;
-  box-shadow: 0 0 12px 4px white;
+  box-shadow: 0 0 1vw .03vw white;
+  /* width:85vw */
 }
 .skill-img{
   height:64px;
   width: 64px;
+  padding:5px;
 }
 
 .skill-img-ruby{
@@ -41,6 +53,10 @@ margin-right: 18px;
 .skill-img-air{
   height:64px;
   width: 64px;
+}
+.skill-img-git{
+  height:70px;
+  width: 70px;
 }
  .title-li{
    font-weight: 900;
