@@ -42,3 +42,49 @@ top:27%;
   bottom: 3%;
 }
 
+/* Media Queries for Ipad size */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.home-main-div{
+  height:75vh;
+}
+
+.home-welcome{
+  top:10%
+}
+.home-name{
+  top:40%;
+  font-size:12vw;
+  left:11%;
+}
+
+.home-img1{
+  width: 210px;
+  height: 140px;
+}
+
+}
+ 
+/* Media Queries for Iphone 6 7 8 size */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.home-welcome{
+  top:15%;
+  font-size:28px;
+}
+
+.home-name{
+  top:28%;
+  font-size:18vw;
+  text-align: center;
+  left:8%;
+}
+.home-img1{
+  width: 120px;
+  height: 75px;
+}
+}

@@ -20,9 +20,9 @@ const About = () => {
               immersive boot camp, with curriculum that focused on HTML, CSS,
               JavaScript, Node Js, React, Ruby, Rails as well as others.</p>
             
-            <p className="about-me-p">I am a logical and analyaticl thinker. Attention to detail and problem solving skills translate well from accounting to web development. I am also an experienced musician and understand the creative group dynamic.  Being a collaborative creative team member, whether in software development or making music, is extremely gratifying and fulfilling and motivates me.</p>
+            <p className="about-me-p second">I am a logical and analyaticl thinker. Attention to detail and problem solving skills translate well from accounting to web development. I am also an experienced musician and understand the creative group dynamic.  Being a collaborative creative team member, whether in software development or making music, is extremely gratifying and fulfilling and motivates me.</p>
               
-              <p className="about-me-p">I know how to thrive in a team environment working as part of a small Finance section
+              <p className="about-me-p third">I know how to thrive in a team environment working as part of a small Finance section
               and coding on team projects in the General Assembly cohort. I’m
               enthusiastic about the opportunities for constant learning and
               growth in the burgeoning field of full stack development.</p>

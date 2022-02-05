@@ -14,7 +14,7 @@ const Skills = () => {
       </div>
       <div className="skills-container">
       <div className="skills-lists">
-        <ul className>
+        <ul className="skills-ul">
             <li>React</li>
             <li><img className="skill-img" src="./images/logos/react.png" alt="js" /></li>
             <li>Java Script</li>
@@ -27,9 +27,9 @@ const Skills = () => {
             <li><img className="skill-img" src="./images/logos/Bootstrap.png" alt="js" /></li>     
         </ul>
         
-        <ul>
+        <ul className="skills-ul">
         <li>Ruby</li>
-            <li><img className="skill-img-ruby" src="./images/logos/ruby.png" alt="js" /></li>
+            <li><img className="skill-img skill-img-ruby" src="./images/logos/ruby.png" alt="js" /></li>
             <li>Rails</li>
             <li><img className="skill-img" src="./images/logos/rails.png" alt="js" /></li>
             <li>Postgresql</li>
@@ -37,13 +37,13 @@ const Skills = () => {
             <li>MongoDB</li>
             <li><img className="skill-img" src="./images/logos/mongo.png" alt="js" /></li>
           <li>Air Table</li>
-          <li><img className="skill-img-air" src="./images/logos/air.png" alt="js" /></li>
+          <li><img className="skill-img skill-img-air" src="./images/logos/air.png" alt="js" /></li>
         </ul>
-        <ul>
+        <ul className="skills-ul">
             <li>Visual Studio Code</li>
             <li><img className="skill-img" src="./images/logos/vsc.png" alt="js" /></li>
             <li>GitHub</li>
-            <li><img className="skill-img-git" src="./images/logos/git.png" alt="js" /></li>
+            <li><img className="skill-img skill-img-git" src="./images/logos/git.png" alt="js" /></li>
                 
         </ul>
         </div>

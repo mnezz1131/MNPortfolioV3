@@ -14,7 +14,7 @@
 }
 
 .navbar-main-div a:hover{
-border-bottom: 4px solid purple;
+border-bottom: 4px solid slategray;
 }
 
 .nav-ul {
@@ -29,7 +29,7 @@ margin: 20px;
 
 }
 .nav-link{
-  color: antiquewhite;
+  color: white;
   text-decoration: none;
 }
 .navMobile-main-div{
@@ -60,7 +60,7 @@ flex-direction: column;
 position: absolute;
 top:80px;
 left:0;
-background-color:rgb(38, 0, 255);
+background-color:slategray;
 border-top: 2px solid #8C1CD1;
 
   }
@@ -68,7 +68,7 @@ border-top: 2px solid #8C1CD1;
     padding: 0 15px 0 15px;
   }
   .navbar-main-div{
-    opacity: 75%;
+    opacity: 95%;
   }
 
   .navbar-main-div a:hover{

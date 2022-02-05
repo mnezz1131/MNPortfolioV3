@@ -1,7 +1,6 @@
 .about-main-div{
 background-color: black;
 padding-bottom: 5%;
-
 height: 85vh;
 }
 
@@ -34,3 +33,66 @@ height: 85vh;
   border-radius:10%;
 }
 
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.about-main-div{
+  padding-top:10px;
+  padding-bottom:03%;
+}
+  
+  .about-container{
+    margin-top: 10px;
+
+  }
+.about-text{
+  margin-right: 35px;
+}
+.about-h2{
+  font-size: 4.5vw;
+}
+
+  .about-pic{
+    box-shadow: 0 0 1vw .05vw white;
+    width:38vw;
+  }
+  .about-me-p{
+    font-size: 19.5px;
+  }
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .about-main-div{
+    
+      padding-bottom: 60%;
+    }
+    .about-container{
+  height:100vh;
+  margin-top:0;
+  margin-bottom: 500px;
+}
+.about-pic{
+  box-shadow: 0 0 1vw .05vw white;
+  width:28vw;
+  margin-top: 50px;
+}
+.about-h2{
+  font-size: 5.5vw;
+}
+.about-text{
+  width:62%;
+  margin-right:5px;
+}
+.about-me-p{
+  font-size: 13px;
+}
+
+}

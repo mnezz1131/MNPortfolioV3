@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="row">
         <div className="col" size="md-12">
           <p className="contact-p">
-            Please contact me for additional information, to schedule job
+            Please contact me for any additional information, to schedule job
             interviews or for freelance web design consultations.
           </p>
         </div>
@@ -42,7 +42,6 @@ const Contact = () => {
           </p>
         </div>
       </div>
-     
       <Download />
     </div>
   );

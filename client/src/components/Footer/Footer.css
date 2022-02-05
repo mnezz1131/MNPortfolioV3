@@ -34,15 +34,59 @@ color: aliceblue;
 }
 
 @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .footer-copyright{
+      left:37px;
+     top:5%;
+     font-size: 16px;;
+    }
+
+    .footer-name{
+      position: absolute;
+      left: 45%;
+      top:5%;
+      font-size: 16px;
+    }
+    .small-logo-div{
+      top:15%;
+      right:35px;
+    }
+    .small-logo{
+      width:35px;
+      margin-left: 10px;
+    }
+}
+
+
+
+
+@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 .footer-copyright{
-  left:25px;
+  left:10px;
   margin-right: 5px;
 }
+.footer-copyright{
 
+  font-size: 14px;
+  top:5%
+}
 .footer-name{
+  position: absolute;
+  left:39%;
+  top:5%;
+  font-size: 14px;
+}
+.small-logo-div{
+  top:15%;
+  right:15px;
+}
+.small-logo{
+  width:35px;
   margin-left: 10px;
 }
 

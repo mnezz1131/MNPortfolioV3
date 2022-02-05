@@ -1,6 +1,6 @@
 .download-div{
-  margin-top:15px;
-  margin-bottom:35px;
+  margin-top:1vh;
+  margin-bottom:2vh;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -35,19 +35,37 @@ text-decoration: none;
 transition: background-size .2s;
 }
 
-a:hover {
-background-size: 4px 70px;
-color: goldenrod;
+ a:hover {
+background-size: .5vw 1vw;
+color: slategray;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .download_link{
+      font-size: 50px;
+    }
 }
 
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-.download_link{
-  font-size: 30px;
+
+
+    .download_link{
+  font-size: 28px;
 }
+
+.download-div h1{
+  font-size:28px;
 }
+
+}
+
+
 
 
 

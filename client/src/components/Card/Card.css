@@ -1,15 +1,16 @@
 .projectContainer{
-  background-color: red;
+  background: rgb(106,18,196);
+  background: linear-gradient(125deg, rgba(106,18,196,1) 35%, rgba(135,49,168,1) 55%);
   display:flex;
   margin-bottom: 5%;
   align-items: center;
-  padding-left: 2.5%;
-  padding-right:2.5%;
+  padding-left: 2.0%;
+  padding-right:2.0%;
   height: 320px;
   border-radius: 10px;
   box-shadow: 0 0 5px 1px white;
   z-index: 1;
-  width:70vw;
+  width:65vw;
 margin: 0 auto;
 margin-bottom:35px;
 }
@@ -25,4 +26,60 @@ margin-bottom:35px;
 
 .card-tools p{
   margin: 10px 0 10px 0;
+  color:antiquewhite;
+}
+.card-tools a{
+  color:rgb(15, 14, 14);
+}
+.card-tools a:hover{
+  color:yellow;
+}
+
+
+/* MEDIA QUERIES FOR IPAD */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.projectContainer{
+  width:85vw;
+  height: 255px;
+}
+
+    .card-image{
+width: 400px;
+}
+
+.card-tools p{
+ font-size:16px;
+}
+.card-tools a{
+  font-size:17px;
+ }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .projectContainer{
+      width:85vw;
+      height: 410px;
+      flex-direction: column;
+    }
+    
+   .card-image{
+       margin-left: 23px;
+          margin-top: 10px;
+    width: 310px;
+    }
+    
+    .card-tools p{
+      margin-left: 5px;
+      margin-bottom: 2px;
+     font-size:18px;
+    }
+    .card-tools a{
+      font-size:17px;
+     }
 }
