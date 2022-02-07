@@ -48,8 +48,12 @@ top:27%;
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 .home-main-div{
-  height:75vh;
+  height:80vh;
 }
+.home-background{
+  object-fit: cover;
+  }
+  
 
 .home-welcome{
   top:10%
@@ -72,8 +76,13 @@ top:27%;
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+.home-background{
+object-fit: cover;
+}
+
 .home-welcome{
   top:15%;
+  margin:0 auto;
   font-size:28px;
 }
 
