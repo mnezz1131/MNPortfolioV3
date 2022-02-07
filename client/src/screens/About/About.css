@@ -61,6 +61,17 @@ height: 85vh;
   .about-me-p{
     font-size: 19.5px;
   }
+
+.about-me-text{
+  position: relative;
+}
+
+  .about-me-p.third{
+    position:absolute;
+    left: 400px;
+    top:50%;
+    width:80%;
+  }
 }
 
 
@@ -77,22 +88,37 @@ height: 85vh;
     .about-container{
   height:100vh;
   margin-top:0;
+  padding:0;
   margin-bottom: 500px;
 }
 .about-pic{
   box-shadow: 0 0 1vw .05vw white;
-  width:28vw;
-  margin-top: 50px;
+  width:37vw;
+  margin-top: 100px;
 }
 .about-h2{
   font-size: 5.5vw;
 }
 .about-text{
-  width:62%;
-  margin-right:5px;
+  width:44%;
+  margin-right:15px;
 }
 .about-me-p{
-  font-size: 13px;
+  font-size: 12px;
+  text-align: start;
 }
+
+.about-me-text{
+  position: relative;
+}
+
+  .about-me-p.third{
+    position:absolute;
+    left: 185px;
+    top:45%;
+    width:80%;
+  }
+
+
 
 }
